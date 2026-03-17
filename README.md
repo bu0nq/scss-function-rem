@@ -33,7 +33,7 @@ You can change the namespace during import and use the rem function with a diffe
 ```scss
 @use "@bu0nq/scss-function-rem" as to;
 
-.example {
+.demo {
     font-size: to.rem(16px);
 }
 ```
