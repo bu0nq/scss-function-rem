@@ -9,14 +9,11 @@
     "functions",
     "rem"
   ],
-  "main": "function-rem.scss",
-  "files": [
-    "function-rem.scss"
-  ],
+  "main": "index.scss",
   "exports": {
     ".": {
-      "sass": "./function-rem.scss",
-      "default": "./function-rem.scss"
+      "sass": "./index.scss",
+      "default": "./index.scss"
     }
   },
   "license": "MIT",
