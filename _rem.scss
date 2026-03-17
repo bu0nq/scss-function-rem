@@ -1,0 +1,18 @@
+@use "sass:math";
+
+$baseline: 16 !default;
+
+@function rem(
+  $value,
+  $baseline: $baseline
+) {
+  @if (math.is-unitless($value)) {
+    $value: $value * 1px;
+  }
+
+  @if (math.is-unitless($baseline)) {
+    $baseline: $baseline * 1px;
+  }
+
+  @return math.div($value, $baseline) * 1rem;
+}
