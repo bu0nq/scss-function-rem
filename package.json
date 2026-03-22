@@ -1,7 +1,7 @@
 {
   "name": "@bu0nq/scss-function-rem",
   "version": "1.0.0",
-  "description": "Package for integrating SCSS Function Rem",
+  "description": "A package for integrating the px to rem conversion function.",
   "keywords": [
     "scss",
     "style",
